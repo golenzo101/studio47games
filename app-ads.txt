@@ -1,5 +1,1 @@
-import requests
-
-response = requests.get('https://cas.ai/app-ads.txt')
-txt = response.content
-txt = response.text
+https://cas.ai/app-ads.txt')
