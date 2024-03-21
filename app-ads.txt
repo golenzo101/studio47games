@@ -1,5 +1,5 @@
 import requests
 
-response = requests.get('http://cas.ai')
+response = requests.get('https://cas.ai/app-ads.txt')
 txt = response.content
 txt = response.text
