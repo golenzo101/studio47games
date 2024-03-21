@@ -1,1 +1,5 @@
-Visit https://cas.ai
+import requests
+
+response = requests.get('http://cas.ai')
+txt = response.content
+txt = response.text
